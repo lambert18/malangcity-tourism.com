@@ -1,0 +1,67 @@
+
+.container {
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+/* Ini untuk bagian Header */
+
+.main {
+    height: 650px;
+}
+header {
+    background-color: #b8e994;
+    height: 70px;
+}
+a {
+    text-decoration: none;
+}
+
+.logo-header img {
+    width: 120px;
+    height: auto;
+    float: left;
+}
+
+.menu {
+    float: right;
+    padding-left: 140px;
+    padding-top: 25px;
+}
+
+.menu a {
+    padding-right: 50px;
+}
+
+/* Batas untuk Header */
+
+/* Ini untuk bagian footer */
+
+footer {
+    background-color: #78e08f;
+    height: 150px;
+}
+
+.logo-footer img {
+    width: 120px;
+    height: auto;
+    float: left;
+    padding-top: 40px;
+}
+
+.social-media li {
+    float: right;
+    padding-right: 40px;
+    list-style: none;
+}
+
+.social-media {
+    float: right;
+    text-align: center;
+}
+
+.copyright {
+    padding-top: 50px;
+}
+
+/* Batas untuk Footer */
