@@ -6,20 +6,23 @@
 
 /* Ini untuk bagian Header */
 
-.main {
-    height: 650px;
-}
+
 header {
     background-color: #b8e994;
-    height: 70px;
+    height: 75px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    z-index: 10;
 }
+
 a {
     text-decoration: none;
 }
 
 .logo-header img {
     width: 120px;
-    height: auto;
+    height: 75px;
     float: left;
 }
 
@@ -35,6 +38,163 @@ a {
 
 /* Batas untuk Header */
 
+/* Ini untuk bagian Main*/
+.top-wrapper {
+  padding-top: 300px;
+  background-image: url(../assets/images/banner.jpg);
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+  height: 750px;
+}
+
+.top-wrapper img {
+  opacity: 0.3;
+}
+
+.top-wrapper h1 {
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+.top-wrapper p {
+  opacity: 0.8;
+  margin-bottom: 3px;
+}
+
+.btn-wrapper {
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+
+.fa-facebook {
+  padding-right: 10px;
+  color: #fff;
+}
+
+.twitter {
+  background-color: #55acee;
+}
+
+.fa-twitter {
+  padding-right: 10px;
+  color: #fff;
+}
+
+
+.btn {
+  padding: 12px 24px;
+  color: black;
+  display: inline-block;
+  opacity: 1;
+  border-radius: 4px;
+  transition: .2s;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.top-arrows {
+  padding-top: 220px;
+}
+
+.top-arrows p {
+  opacity: 1;
+  font-weight: 700;
+}
+
+.arrows {
+  position: relative;
+  animation-name: arrow;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  font-size: 30px;
+  padding-top: 20px;
+}
+
+@keyframes arrow {
+  0%   {top:0px;}
+  50%  {top:40px;}
+  100% {top:0px;}
+}
+
+.lesson-wrapper {
+  height: 350px;
+  padding-bottom: 80px;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: normal;
+}
+
+.lesson {
+  float: left;
+  width: 25%;
+}
+
+.lesson-icon {
+  position: relative;
+}
+
+.lesson-icon img {
+  width: 200px;
+  height: 200px;
+}
+
+.txt-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 15px;
+  color: #696969;
+}
+
+.heading h3 {
+  font-weight: normal;
+}
+
+.contents {
+  height: 500px;
+  margin-top: 100px;
+  text-align: center;
+}
+
+.section-title {
+  border-bottom: 2px solid #dee7ec;
+  font-size: 28px;
+  padding-bottom: 15px;
+  margin-bottom: 50px;
+}
+
+.contents-item {
+  float: left;
+  margin-right: 40px;
+}
+
+.contents-item p {
+  font-size: 24px;
+  margin-top: 30px;
+
+}
+/* Batas untuk Main*/
 /* Ini untuk bagian footer */
 
 footer {
@@ -61,7 +221,8 @@ footer {
 }
 
 .copyright {
-    padding-top: 50px;
+    padding-bottom: 20px;
 }
 
 /* Batas untuk Footer */
+

@@ -1,0 +1,137 @@
+/* Ini untuk bagian Kontak*/
+.top-kontak{
+	text-align: center;
+	height: 20%;
+  margin-top: 100px;
+}
+
+.middle-kontak{
+	height:60%;
+}
+
+.bottom-kontak{
+	height: 20%;
+	text-align: center;
+}
+
+.kiri {
+	width:50%;
+	float:left;
+	text-align: center;
+}
+
+.kanan {
+	width:50%;
+	float:right;
+	padding-top: 50px;
+	font-size: 18px;
+}
+
+.kiri1 {
+	width:30%;
+	height:100%;
+	float:left;
+	text-align:left;
+	font-weight: bold;
+}
+
+.kanan1 {
+	width:70%;
+	height:100%;
+	float:left;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.instagram {
+  background-color: #DC143C;
+  margin: 20px;
+}
+
+.facebook {
+  background-color: #3b5998;
+  margin: 20px;
+}
+
+.twitter {
+  background-color: #55acee;
+  margin: 20px;
+}
+
+.pinterest {
+  background-color: #FF0000;
+  margin: 20px;
+}
+
+.linkedin {
+  background-color: #0000CD;
+  margin: 20px;
+}
+
+input{
+  width:200px;
+  margin-top:10px;
+  margin-bottom :20px;
+  padding:10px;
+  font-size:18px;
+  border:1px solid #dee7ec;
+}
+
+
+/* Batas untuk Kontak*/
+
+
+/* Ini untuk bagian destinasi*/
+.top-destinasi h1{
+	text-align: center;
+	height: 50px;
+}
+.section-title {
+  border-bottom: 2px solid #dee7ec;
+  font-size: 28px;
+  padding-bottom: 15px;
+  margin-bottom: 50px;
+}
+.bottom-tentang p{
+	font-size: 18px;
+	font-family: Arial;
+	text-align: justify;
+}
+.txt-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 20px;
+  color: #696969;
+}
+
+
+/* Ini untuk bagian tentang*/
+.top-tentang h1{
+	text-align: center;
+	height: 50px;
+}
+
+.section-title {
+  border-bottom: 2px solid #dee7ec;
+  font-size: 28px;
+  padding-bottom: 15px;
+  margin-bottom: 50px;
+}
+
+.bottom-tentang p{
+	font-size: 18px;
+	font-family: Arial;
+	text-align: justify;
+}
+/* Batas untuk tentang*/
