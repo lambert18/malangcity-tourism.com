@@ -14,6 +14,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
+  background-image: url(../assets/images/bg.png);
 }
 
 
@@ -54,7 +55,7 @@ a {
 }
 
 .top-wrapper h1 {
-  font-size: 65px;
+  font-size: 45px;
   letter-spacing: 5px;
   margin-bottom: 10px;
 }
@@ -83,7 +84,7 @@ a {
 }
 
 .linkedin {
-  background-color: #0e76a8;
+  background-color: #239b76;
 }
 
 .twitter {
@@ -110,14 +111,13 @@ a {
 }
 
 .top-arrows {
-  padding-top: 190px;
+  padding-top: 200px;
   text-align: center;
 }
 
 .top-arrows p {
   opacity: 1;
   font-weight: 700;
-  letter-spacing: 1px;
 }
 
 .arrows {
@@ -126,7 +126,7 @@ a {
   animation-duration: 2.5s;
   animation-iteration-count: infinite;
   font-size: 30px;
-  padding-top: 10px;
+  padding-top: 20px;
 }
 
 @keyframes arrow {
@@ -152,10 +152,8 @@ a {
 }
 
 .lesson {
-  display: inline-block;
-  width: 20%;
-  margin-bottom: 30px;
-
+  float: left;
+  width: 25%;
 }
 
 .lesson-icon {
@@ -184,7 +182,6 @@ a {
 /* Ini untuk bagian footer */
 footer {
     background-color: #78e08f;
-    height: 183px;
 }
 
 .logo-footer {
@@ -204,34 +201,9 @@ footer {
 }
 
 .social-media {
-    padding-top: 20px;
-    margin: 25px 0 20px 0;
+    margin: 15px 0 20px 0;
     float: right;
     text-align: center;
-}
-
-.social-media .fa {
-  color: black;
-}
-
-.social-media .fa-instagram:hover {
-  color: #3f729b;
-}
-
-.social-media .fa-facebook:hover {
-  color: #3b5998;
-}
-
-.social-media .fa-twitter:hover {
-  color: #00acee;
-}
-
-.social-media .fa-pinterest:hover {
-  color: #c8232c;
-}
-
-.social-media .fa-linkedin:hover {
-  color: #0e76a8;
 }
 
 .social-media p {
@@ -239,9 +211,8 @@ footer {
 }
 
 .copyright {
-    padding-top: 40px;
     text-align: center;
-    font-size: 15px;
+    margin-top: 20px;
 }
 /* Batas untuk Footer */
 

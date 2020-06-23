@@ -10,6 +10,10 @@
   padding-bottom: 50px;
 }
 
+.top-kontak p {
+  margin: 20px 0;
+}
+
 .middle-kontak {
   width: 80%;
   margin: 0 auto;
@@ -20,10 +24,6 @@
   padding-top: 50px;
   padding-bottom: 20px;
   margin-bottom: 20px;
-}
-
-input {
-  margin-left: 20px;
 }
 
 .kiri {
