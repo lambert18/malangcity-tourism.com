@@ -6,6 +6,7 @@
     <head>
         <title>Malang City Tourism</title>
         <link rel="stylesheet" href="css/stylesheet.css">
+        <link rel="stylesheet" href="css/responsive.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     </head>
     <body>
@@ -14,15 +15,18 @@
                 <div class="logo-header">
                     <img src="assets/images/logo-kota-malang-preview.png" alt="Beautiful Malang">
                 </div>
-                <div class="menu">
-                    <nav>
-                        <a href="index.html">Beranda</a>
-                        <a href="destinasi.html">Destinasi</a>
-                        <a href="#fasilitas">Fasilitas</a>
-                        <a href="tentang.html">Tentang</a>
-                        <a href="kontak.html">Kontak</a>
-                    </nav>
-                </div>
+                <nav class="menu">
+                    <ul>
+                        <li><a href="index.html">Beranda</a></li>
+                        <li><a href="destinasi.html">Destinasi</a></li>
+                        <li><a href="fasilitas.html">Fasilitas</a></li>
+                        <li><a href="tentang.html">Tentang</a></li>
+                        <li><a href="kontak.html">Kontak</a></li>
+                        <li class="icon">
+                            <a href="#"><span class="fa fa-bars menu-icon"></span></a>
+                        </li>
+                    </ul>
+                 </nav>
             </div>
         </header>
 
@@ -34,10 +38,10 @@
                 <p>Bagaikan Kota PARIS nya Jawa Timur </p>
 
                 <div class="btn-wrapper">
-                  <h3>Bagikan</h3>
-                  <p>
-                  <a href="#" class="btn facebook"><span class="fa fa-facebook"></span>Facebook</a>
-                  <a href="#" class="btn twitter"><span class="fa fa-twitter"></span>Twitter</a></p>
+                  <h3>BAGIKAN</h3>
+                  <a href="http://twitter.com/share?url=https://lambert18.github.io/malangcity-tourism.com/" target="_blank" class="btn facebook"><span class="fa fa-facebook"></span>Facebook</a>
+                  <a href="http://www.linkedin.com/shareArticle?mini=true&url=http://www.kang-cahya.com/p/advertiser-page.html&summary=" target="_blank" class="btn linkedin"><span class="fa fa-linkedin"></span>Linked In</a>
+                  <a href="http://www.facebook.com/sharer.php?u=https://lambert18.github.io/malangcity-tourism.com/" target="_blank" class="btn twitter"><span class="fa fa-twitter"></span>Twitter</a>
                 </div>
                 <div class="top-arrows">
                   <p>TELUSURI SEKARANG</p>
@@ -78,6 +82,7 @@
                 </div>
                 <p class="txt-contents">Desa Wisata Pujonkidul</p>
               </div>
+              <div class="clear"></div>
             </div>
           </div>
         </div>
@@ -88,16 +93,19 @@
                 </div>
                 <div class="social-media">
                     <p>Social Media</p>
-                    <div class="icon-sosmed">
-                        <a href="#" class="btn"><span class="fa fa-instagram"></span></a>
-                        <a href="#" class="btn"><span class="fa fa-facebook"></span></a>
-                        <a href="#" class="btn"><span class="fa fa-twitter"></span></a>
-                        <a href="#" class="btn"><span class="fa fa-pinterest"></span></a>
-                        <a href="#" class="btn"><span class="fa fa-arrow-down"></span></a>
-                    </div>
-                    <p class="copyright">Copyright &copy 2020 malangcity-tourism.com. All Rights Reserved</p>
+                    <ul>
+                        <li><a href="#"><span class="fa fa-instagram"></span></a></li>
+                        <li><a href="#"><span class="fa fa-facebook"></span></a></li>
+                        <li><a href="#"><span class="fa fa-twitter"></span></a></li>
+                        <li><a href="#"><span class="fa fa-pinterest"></span></a></li>
+                        <li><a href="#"><span class="fa fa-linkedin"></span></a></li>
+                    </ul>
+                    <p class="copyright">Copyright&copy; 2020. malangcity-tourism.com. All Rights Reserved.</p>
                 </div>
+                <div class="clear"></div>
             </div>
         </footer>
+        <button onclick="topFunction()" id="scroll-btn" title="Back to Top">&uarr;</button>
+        <script src="js/function.js"></script>
     </body>
 </html>
